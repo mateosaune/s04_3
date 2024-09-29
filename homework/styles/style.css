@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,*::before,*::after{
+    box-sizing: before;
+}
+
+body{
+    font-family:'Lato','Cormorant Garamond','Arial';
+    /* font-style: oblique; */
+}
+     
+/* header */
+
+.nav-bar {
+    position: relative;
+    border: 2px solid #252525;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav-bar h1 {
+    text-align: center;
+    color: #6B0504;
+}
+
+nav {
+    position: relative;
+    width: inherit;
+    background-color: #6B0504;
+    border-radius: 10px 10px 14px 14px ;
+    padding: 5px;
+    top: 120%;
+}
+
+.nav-main {
+    
+    padding-left: 0%;
+
+}
+
+.nav-main li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+
+.nav-main li a {
+    border: 1px solid #EDE7E3;
+    text-decoration: none;
+    padding: 10px;
+    color: #EDE7E3;
+}
+
+/* main */
+
+.header-recipes{
+    text-align: center;
+}
+
+.main-recipes{
+    background-color: aliceblue;
+}
+
+.title{
+    text-align: center;
+}
+
+.card-recipe{
+    border: 8px dotted #A3320B;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-title{
+    color:#A3320B;
+}
+
+
+.btn{
+    text-align: center;
+}
+
+.btn-recipe{
+    background-color: #A3320B;
+    color: #EDE7E3;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.second-recipes{
+    background-color: #EDE7E3;
+}
+
+/* footer */
+
+footer{
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    color: #EDE7E3;
+    background-color: #797B84;
+}
+
+/* all views */
+
+.form {
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px dashed #252525;
+    background-color: #252525;
+    color: #EDE7E3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.att{
+    padding: 10px;
+}
+
+.about{
+    padding: 10px;
+    color: #EDE7E3;
+    background-color: #252525;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px 20px;
+}
+
+.recipes{
+    background-color: #EDE7E3;
+}

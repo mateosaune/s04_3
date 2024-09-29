@@ -1,0 +1,119 @@
+/* section{
+    color: peru;
+    color: slateblue;
+    color: slategrey;
+} */
+
+/* first card */
+
+/* .first-card{
+    color: #295A66;
+    background-color: #295A66;
+    border: 4px solid rgb(29, 11, 45);
+    border-radius: 15px 0 0 15px;
+    border-style: hidden;
+} */
+
+/* .title{
+    color: lightcoral;
+}
+
+.card-header{
+    color: slateblue;
+}
+
+.card-title{
+    color: slategray;
+}
+
+.card-body{
+    color: #FFA62B;
+}
+
+
+/* second card */
+
+/* .second-card{
+    color: slateblue;
+    background-color: azure;
+    /* border: 4px solid rgba(125, 12, 224, 0.522); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,*::before,*::after{
+    box-sizing: before;
+}
+
+body{
+    font-family:'Lato','Cormorant Garamond','Arial';
+    /* font-style: oblique; */
+}
+     
+/* header */
+
+.nav-main {
+    position: relative;
+    border: 2px solid #252525;
+    border-radius: 10px;
+}
+
+.nav-main h1 {
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    width: inherit;
+    background-color: #252525;
+    border-radius: 10px;
+    padding: 5px;
+    top: 120%;
+}
+
+.navegate {
+    padding-left: 0px;
+}
+
+.navegate li {
+    
+    /* border: 1px solid burlywood; */
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navegate li a {
+    border: 1px solid;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+/* card */
+
+.title{
+    text-align: center;
+}
+
+.card{
+    border: 5px dotted #0004ff;
+    /* color:#004777; */
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+.btn {
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.btn-information{
+    background-color: #001eff;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+} 
+
